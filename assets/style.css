@@ -1,0 +1,106 @@
+* {
+    background-color: #86644f;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+ :root {
+    --background-color: #86644f;
+    --color: #112d23;
+ }
+
+ h1, h2, h3, h4, p {
+    color: var(--color);
+ }
+header, footer {
+    margin: 15px;
+    padding: 15px;
+}
+
+header ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+header ul a {
+    padding-left: 1vw;
+    text-decoration: none;
+    color: var(--color);
+}
+
+#featured-work div {
+    display: flex;
+}
+
+#about-me-section {
+
+}
+
+#contact-me {
+    display: flex;
+    justify-content: center;
+
+}
+section div h2 span {
+font-size: smaller ;
+}
+
+.about-me-section{
+    margin: 1vh;
+    padding: 1vh;
+    width: 100%;
+    display: block;
+    overflow: hidden;
+}
+
+.about-me-section h2, p{
+    display: block;
+    align-items: flex-start;
+}
+
+.about-me-section img {
+    float:right;
+    max-width: 100%;
+    align-items: flex-end;
+}
+
+#portrait {
+    max-width: 200px;
+    max-height: 200px;
+    margin-right: 20px;
+    border: #112d23 solid 10px;
+    border-radius: 20px;
+}
+
+.about-me-section div {
+    display: inline;
+}
+
+.featured-projects-containers {
+    border: #b47243 solid 1px;
+    margin: 10px;
+    display: inline;
+    text-align:left;
+    max-width: fit-content;
+    max-height: fit-content;
+}
+
+#featured-work-styling {
+    display: inline;
+}
+
+footer {
+    text-align: center;
+}
+
+#link {
+    margin-left: 2vw;
+}
+
+#link:hover {
+    font-size: larger 5px;
+    font-weight: bold;
+}
+
+#icons {
+    max-width: 100px;
+    max-height: 100px;
+}
