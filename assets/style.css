@@ -1,33 +1,43 @@
 * {
-    background-color: #86644f;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
  :root {
     --background-color: #86644f;
-    --color: #112d23;
  }
 
  h1, h2, h3, h4, p {
-    color: var(--color);
+    color: #86644f;
+ }
+ header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
  }
 header, footer {
     margin: 15px;
     padding: 15px;
 }
 
-header ul {
-    display: flex;
-    justify-content: flex-end;
-}
-
 header ul a {
-    padding-left: 1vw;
     text-decoration: none;
-    color: var(--color);
+    color: #86644f;
 }
 
-#featured-work div {
+header ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
+}
+
+#featured-work {
+    min-height: 100%;
     display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
 }
 
 #about-me-section {
@@ -37,10 +47,8 @@ header ul a {
 #contact-me {
     display: flex;
     justify-content: center;
-
-}
-section div h2 span {
-font-size: smaller ;
+    background-color: #112d23;
+    padding-bottom: 50px;
 }
 
 .about-me-section{
@@ -49,18 +57,20 @@ font-size: smaller ;
     width: 100%;
     display: block;
     overflow: hidden;
+    max-height: fit-content;
 }
 
 .about-me-section h2, p{
     display: block;
     align-items: flex-start;
+
 }
 
-.about-me-section img {
+/* .about-me-section img {
     float:right;
     max-width: 100%;
     align-items: flex-end;
-}
+} */
 
 #portrait {
     max-width: 200px;
@@ -77,16 +87,32 @@ font-size: smaller ;
 .featured-projects-containers {
     border: #b47243 solid 1px;
     margin: 10px;
-    display: inline;
-    text-align:left;
-    max-width: fit-content;
-    max-height: fit-content;
+    display: grid;
+    grid-template-columns: 200px 300px;
+    grid-row: auto auto;
+    grid-column-gap: 20px;
+    text-align:left block;
+    border-radius: 10px;
+    padding: 5px;
+    flex: 1 1;
+    flex-direction: column;
+
+}
+
+#featured-work-styling-01 {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-grow: 1;
 }
 
 #featured-work-styling {
-    display: inline;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding-left: 10px;
 }
-
+ 
 footer {
     text-align: center;
 }
@@ -96,11 +122,68 @@ footer {
 }
 
 #link:hover {
-    font-size: larger 5px;
-    font-weight: bold;
+    text-decoration: underline solid #b47243;
+}
+
+.featured-projects-containers:hover {
+    background-color: #112d23;
 }
 
 #icons {
-    max-width: 100px;
-    max-height: 100px;
+    display: flex;
+    justify-content: space-around;
+    max-width: 50px;
+    max-height: 50px;
 }
+
+
+#landing-section {
+   background-image: url('../assets/images/Professional\ Photo\ copy.jpeg');
+   background-color: var(--color);
+   background-size: cover;
+   background-position: top;
+   height: 400px;
+   max-width: 1400px;
+}
+
+#landing-section h2 {
+    align-items: flex-end;
+    color: var(--background-color);
+    text-align: left;
+    position: relative;
+    top: 100px;
+    max-width: 300px;
+    padding-left: 50px;
+}
+
+#landing-section p {
+    align-items: flex-end;
+    text-align: left;
+    position: relative;
+    top: 100px;
+    max-width: 300px;
+    padding-left: 50px
+   }
+
+#icons img {
+    display: flex;
+    max-height: 50px;
+    padding-top: 50px;
+}
+
+/* @media screen and (max-width: 920px) {
+    #landing-section h2 {
+        padding-left: 30px; 
+    }}
+
+@media screen and (max-width: 750px) {
+    #landing-section h2 {
+        padding-left: 30px;
+        max-width: 250px
+    }}
+
+    @media screen and (max-width: 3000px)
+    #landing-section h2 {
+        padding-left: 20px;
+        max-width: 500px;
+    } */
