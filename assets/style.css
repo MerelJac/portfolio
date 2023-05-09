@@ -14,7 +14,7 @@
     align-items: center;
     justify-content: space-between;
  }
-header, footer {
+header {
     margin: 20px;
     padding: 15px;
 }
@@ -52,6 +52,8 @@ header ul {
 
 #contact-me {
     display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
     background-color: #112d23;
     padding-bottom: 50px;
@@ -95,11 +97,10 @@ header ul {
     text-align:left block;
     border-radius: 10px;
     padding: 5px;
-    flex: 1 1;
     color: #112d23;
     flex-direction: column;
 
-}
+} 
 
 #featured-work-styling {
     display: flex;
@@ -122,13 +123,6 @@ footer {
 
 .featured-projects-containers:hover {
     background-color: #112d23;
-}
-
-#icons {
-    display: flex;
-    justify-content: space-around;
-    max-width: 50px;
-    max-height: 50px;
 }
 
 
@@ -160,12 +154,9 @@ footer {
     padding-left: 50px
    }
 
-#icons img {
-    display: flex;
+   #icons img {
     max-height: 50px;
-    padding-top: 50px;
 }
-
 @media screen and (max-width: 768px) {
     #landing-section h2 {
         max-width: 200px;}
@@ -173,7 +164,9 @@ footer {
         max-width: 200px;
     }}
 
-.featured-work-styling-01 {
+/* .featured-work-styling-01 {
     display: flex;
     flex-grow: 2;
-}
+} */
+
+
