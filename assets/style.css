@@ -8,15 +8,22 @@
  h1, h2, h3, h4, p {
     color: #86644f;
  }
+
  header {
     display: flex;
     align-items: center;
     justify-content: space-between;
  }
 header, footer {
-    margin: 15px;
+    margin: 20px;
     padding: 15px;
 }
+
+#green-header h1 {
+    color: #112d23;
+    background-color: #7e7a73;
+}
+
 
 header ul a {
     text-decoration: none;
@@ -25,9 +32,6 @@ header ul a {
 
 header ul {
     display: block;
-    list-style-type: disc;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     padding-inline-start: 0px;
@@ -40,9 +44,11 @@ header ul {
     flex-direction: row;
 }
 
+
 #about-me-section {
 
 }
+
 
 #contact-me {
     display: flex;
@@ -66,11 +72,6 @@ header ul {
 
 }
 
-/* .about-me-section img {
-    float:right;
-    max-width: 100%;
-    align-items: flex-end;
-} */
 
 #portrait {
     max-width: 200px;
@@ -85,7 +86,7 @@ header ul {
 }
 
 .featured-projects-containers {
-    border: #b47243 solid 1px;
+    border: #112d23 solid 1px;
     margin: 10px;
     display: grid;
     grid-template-columns: 200px 300px;
@@ -95,15 +96,9 @@ header ul {
     border-radius: 10px;
     padding: 5px;
     flex: 1 1;
+    color: #112d23;
     flex-direction: column;
 
-}
-
-#featured-work-styling-01 {
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    flex-grow: 1;
 }
 
 #featured-work-styling {
@@ -142,7 +137,7 @@ footer {
    background-color: var(--color);
    background-size: cover;
    background-position: top;
-   height: 400px;
+   height: 500px;
    max-width: 1400px;
 }
 
@@ -171,19 +166,14 @@ footer {
     padding-top: 50px;
 }
 
-/* @media screen and (max-width: 920px) {
+@media screen and (max-width: 768px) {
     #landing-section h2 {
-        padding-left: 30px; 
+        max-width: 200px;}
+    #landing-section p {
+        max-width: 200px;
     }}
 
-@media screen and (max-width: 750px) {
-    #landing-section h2 {
-        padding-left: 30px;
-        max-width: 250px
-    }}
-
-    @media screen and (max-width: 3000px)
-    #landing-section h2 {
-        padding-left: 20px;
-        max-width: 500px;
-    } */
+.featured-work-styling-01 {
+    display: flex;
+    flex-grow: 2;
+}
