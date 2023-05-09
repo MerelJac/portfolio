@@ -5,10 +5,6 @@
     --background-color: #86644f;
  }
 
- h1, h2, h3, h4, p {
-    color: #86644f;
- }
-
  header {
     display: flex;
     align-items: center;
@@ -24,7 +20,6 @@ header {
     background-color: #7e7a73;
 }
 
-
 header ul a {
     text-decoration: none;
     color: #86644f;
@@ -38,10 +33,11 @@ header ul {
 }
 
 #featured-work {
-    min-height: 100%;
+    background-color: #b47243;
+    color: #112d23;
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
+    flex-direction: column;
 }
 
 
@@ -74,7 +70,6 @@ header ul {
 
 }
 
-
 #portrait {
     max-width: 200px;
     max-height: 200px;
@@ -87,28 +82,26 @@ header ul {
     display: inline;
 }
 
-.featured-projects-containers {
-    border: #112d23 solid 1px;
-    margin: 10px;
-    display: grid;
-    grid-template-columns: 200px 300px;
-    grid-row: auto auto;
-    grid-column-gap: 20px;
-    text-align:left block;
-    border-radius: 10px;
-    padding: 5px;
+#FW-color {
     color: #112d23;
-    flex-direction: column;
-
-} 
+    text-align: center;
+}
 
 #featured-work-styling {
     display: flex;
     justify-content: center;
     flex-direction: row;
     padding-left: 10px;
+    align-items: center;
+    justify-content: center;
+    min-width: 50%;
 }
  
+#projects-box-01 {
+background-color: antiquewhite;
+height: 200px;
+}
+
 footer {
     text-align: center;
 }
@@ -117,13 +110,28 @@ footer {
     margin-left: 2vw;
 }
 
+.link-external {
+    text-decoration: none;
+    color: #112d23;
+}
+
 #link:hover {
     text-decoration: underline solid #b47243;
 }
 
-.featured-projects-containers:hover {
-    background-color: #112d23;
+.featured-styling-box {
+    border: #112d23 solid 10px;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px;
+    color: #112d23;
+    display: inline-flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: antiquewhite;
 }
+
+
 
 
 #landing-section {
@@ -157,6 +165,17 @@ footer {
    #icons img {
     max-height: 50px;
 }
+
+
+#projects-box-01 {
+    url(https://mereljac.github.io/module-01/);
+}
+/* not a working link */
+
+.featured-styling-box:hover {
+    opacity: .75;
+}
+
 @media screen and (max-width: 768px) {
     #landing-section h2 {
         max-width: 200px;}
@@ -164,9 +183,5 @@ footer {
         max-width: 200px;
     }}
 
-/* .featured-work-styling-01 {
-    display: flex;
-    flex-grow: 2;
-} */
 
 
