@@ -102,7 +102,7 @@ p {
     background-image: url('../assets/images/horiseon-pic.png');
     background-color: #112d23;
     background-size: cover;
-    background-position: inherit;
+    background-position: bottom;
     opacity: .75;
     height: 200px;
 }
@@ -114,7 +114,6 @@ p {
     background-position: top;
     height: 100px;
     opacity: .75;
-    /* text-align: left; */
 }
 
 #projects-box-03 {
@@ -145,9 +144,9 @@ footer {
 
 .link-external {
     text-decoration: none;
-    color: #112d23;
+    color: antiquewhite;
+    text-shadow: 2px 8px 8px #112d23;
 }
-
 #link:hover {
     text-decoration: underline solid #b47243;
 }
@@ -199,15 +198,8 @@ footer {
     max-height: 50px;
 }
 
-
-#projects-box-01 {
-    url(https://mereljac.github.io/module-01/);
-}
-
-/* not a working link */
-
 .featured-styling-box:hover {
-    opacity: .75;
+    border-color: antiquewhite;
 }
 
 @media screen and (max-width: 768px) {
