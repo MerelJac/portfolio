@@ -1,15 +1,17 @@
 * {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
- :root {
-    --background-color: #86644f;
- }
 
- header {
+:root {
+    --background-color: #86644f;
+}
+
+header {
     display: flex;
     align-items: center;
     justify-content: space-between;
- }
+}
+
 header {
     margin: 20px;
     padding: 15px;
@@ -41,9 +43,7 @@ header ul {
 }
 
 
-#about-me-section {
-
-}
+#about-me-section {}
 
 
 #contact-me {
@@ -55,7 +55,7 @@ header ul {
     padding-bottom: 50px;
 }
 
-.about-me-section{
+.about-me-section {
     margin: 1vh;
     padding: 1vh;
     width: 100%;
@@ -64,7 +64,8 @@ header ul {
     max-height: fit-content;
 }
 
-.about-me-section h2, p{
+.about-me-section h2,
+p {
     display: block;
     align-items: flex-start;
 
@@ -105,7 +106,7 @@ header ul {
     opacity: .75;
     height: 200px;
 }
- 
+
 #projects-box-02 {
     background-image: url('../assets/images/Screenshot\ 2023-05-10\ at\ 11.34.59\ AM.png');
     background-color: var(--color);
@@ -113,14 +114,15 @@ header ul {
     background-position: top;
     height: 100px;
     opacity: .75;
-    text-align: left;
+    /* text-align: left; */
 }
+
 #projects-box-03 {
     background-image: url('../assets/images/hands.jpg');
     background-color: var(--color);
     background-size: cover;
     background-position: center;
-    height: 100px;
+    height: 102px;
     opacity: .75;
 }
 
@@ -129,7 +131,7 @@ header ul {
     background-color: var(--color);
     background-size: cover;
     background-position: center;
-    height: 100px;
+    height: 102px;
     opacity: .75;
 }
 
@@ -166,12 +168,12 @@ footer {
 
 
 #landing-section {
-   background-image: url('../assets/images/Professional\ Photo\ copy.jpeg');
-   background-color: var(--color);
-   background-size: cover;
-   background-position: top;
-   height: 500px;
-   max-width: 1400px;
+    background-image: url('../assets/images/Professional\ Photo\ copy.jpeg');
+    background-color: var(--color);
+    background-size: cover;
+    background-position: top;
+    height: 500px;
+    max-width: 1400px;
 }
 
 #landing-section h2 {
@@ -191,9 +193,9 @@ footer {
     top: 100px;
     max-width: 300px;
     padding-left: 50px
-   }
+}
 
-   #icons img {
+#icons img {
     max-height: 50px;
 }
 
@@ -201,6 +203,7 @@ footer {
 #projects-box-01 {
     url(https://mereljac.github.io/module-01/);
 }
+
 /* not a working link */
 
 .featured-styling-box:hover {
@@ -209,10 +212,10 @@ footer {
 
 @media screen and (max-width: 768px) {
     #landing-section h2 {
-        max-width: 200px;}
+        max-width: 200px;
+    }
+
     #landing-section p {
         max-width: 200px;
-    }}
-
-
-
+    }
+}
