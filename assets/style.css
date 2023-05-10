@@ -96,10 +96,41 @@ header ul {
     justify-content: center;
     min-width: 50%;
 }
- 
+
 #projects-box-01 {
-background-color: antiquewhite;
-height: 200px;
+    background-image: url('../assets/images/horiseon-pic.png');
+    background-color: #112d23;
+    background-size: cover;
+    background-position: inherit;
+    opacity: .75;
+    height: 200px;
+}
+ 
+#projects-box-02 {
+    background-image: url('../assets/images/Screenshot\ 2023-05-10\ at\ 11.34.59\ AM.png');
+    background-color: var(--color);
+    background-size: cover;
+    background-position: top;
+    height: 100px;
+    opacity: .75;
+    text-align: left;
+}
+#projects-box-03 {
+    background-image: url('../assets/images/hands.jpg');
+    background-color: var(--color);
+    background-size: cover;
+    background-position: center;
+    height: 100px;
+    opacity: .75;
+}
+
+#projects-box-04 {
+    background-image: url('../assets/images/PullUp.jpg');
+    background-color: var(--color);
+    background-size: cover;
+    background-position: center;
+    height: 100px;
+    opacity: .75;
 }
 
 footer {
