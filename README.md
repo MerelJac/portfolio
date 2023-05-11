@@ -13,6 +13,4 @@ Below is an image of the delpolyed page.
 
 # Link to Deployed Project
 https://mereljac.github.io/portfolio/
-
-# Notes
-This web page does not support media query's larger that 1417px wide. Please use load this web page with a width no larger than 1417px. 
+ 
