@@ -99,7 +99,7 @@ p {
 }
 
 #projects-box-01 {
-    background-image: url('../assets/images/horiseon-pic.png');
+    background-image: url('../assets/images/FlixFinder.png');
     background-color: #112d23;
     background-size: cover;
     background-position: bottom;
@@ -108,6 +108,15 @@ p {
 }
 
 #projects-box-02 {
+    background-image: url('../assets/images/horiseon-pic.png');
+    background-color: #112d23;
+    background-size: cover;
+    background-position: bottom;
+    opacity: .75;
+    height: 100px;
+}
+
+#projects-box-03 {
     background-image: url('../assets/images/Screenshot\ 2023-05-10\ at\ 11.34.59\ AM.png');
     background-color: var(--color);
     background-size: cover;
@@ -116,7 +125,7 @@ p {
     opacity: .75;
 }
 
-#projects-box-03 {
+#projects-box-04 {
     background-image: url('../assets/images/hands.jpg');
     background-color: var(--color);
     background-size: cover;
@@ -125,7 +134,7 @@ p {
     opacity: .75;
 }
 
-#projects-box-04 {
+#projects-box-05 {
     background-image: url('../assets/images/PullUp.jpg');
     background-color: var(--color);
     background-size: cover;
