@@ -1,16 +1,36 @@
-# Portfolio
+# Welcome to [Your Name]'s Portfolio! 👩‍💻
 
-# Desrcription
-This page is designed to be a web developer's portfolio for future employers to learn about the developer and view projects. 
+### About Me
+Hi there! I'm [Your Name], a passionate software engineer with experience in both frontend and backend development. I love building cool projects and exploring new technologies.
 
-# Usage
-This web page is designed to display the web developer, featured work, and contact information. The navigation bar at the top of the page will report the user to that section of the web page. If you click on the images/sections under "featured-work," you will be taken to that site to view the project but anchored to the original page. If you click the icons under "contact-me," you will be able to contact the web developer. 
+### Featured Works 🌟
 
-# Associated Images
-Below is an image of the delpolyed page. 
+#### Project 1: [Project Name]
+- Description: Brief description of the project.
+- Screenshot: ![Screenshot](link/to/screenshot)
 
-![Screenshot-portfolio-page](/assets/images/Portfolio-screenshot-for-readme.png)
+#### Project 2: [Project Name]
+- Description: Brief description of the project.
+- Screenshot: ![Screenshot](link/to/screenshot)
 
-# Link to Deployed Project
-https://mereljac.github.io/portfolio/
- 
+#### Project 3: [Project Name]
+- Description: Brief description of the project.
+- Screenshot: ![Screenshot](link/to/screenshot)
+
+### Technologies I Work With 💻
+
+- Frontend: HTML, CSS, JavaScript, React, Vue.js
+- Backend: Node.js, Express, Python, Django
+- Databases: MongoDB, MySQL, PostgreSQL
+- Other: Git, Docker, AWS, Heroku
+
+### Contact Me 📬
+
+Feel free to reach out to me via email at [your.email@example.com] or connect with me on [LinkedIn](https://www.linkedin.com/in/your-profile).
+
+### Let's Connect! 🌐
+
+- [Portfolio Website](https://mereljac.dev.com)
+- [GitHub](https://github.com/MerelJac)
+- [LinkedIn](https://www.linkedin.com/in/merel-b-jacobs)
+
