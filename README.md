@@ -22,7 +22,9 @@ Hi there! I'm Merel, a passionate software engineer with a product driven mindse
 #### Key Accomplishment:
 - Overhauled the data display to allow users to visualize graphics of data, manipulate what data is displayed, and export data via .csv or .png. 
 - Rerouted the architecture to enhance the interactivity of the charts and tables to ensure greater usability.
-- Chart Page: ![Screenshot](./assets/images/intel.code3.com_brands_61_charts_change_type=indexation&chart_type=indexation_report_chart&end_date=2024-04-03&start_date=2022-02-03.png)
+- Brand Dashboard: ![Screenshot](./assets/images/intel1.png)
+- Chart Page: ![Screenshot](./assets/images/intel2.png)
+
 
 # Ren Platform
 - Collaborated with product team and customer success to innovate software as a service aiding in the decarbonization of the global supply chain via Climate Tech Start-Up Company.
@@ -35,7 +37,7 @@ Hi there! I'm Merel, a passionate software engineer with a product driven mindse
 
 #### Let's Connect! 🌐
 
-- [Portfolio Website](https://mereljac.dev.com)
+- [Portfolio Website](https://mereljac.dev)
 - [GitHub](https://github.com/MerelJac)
 - [LinkedIn](https://www.linkedin.com/in/merel-b-jacobs)
 
