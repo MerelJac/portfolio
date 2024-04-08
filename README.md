@@ -35,7 +35,7 @@ Hi there! I'm Merel, a passionate software engineer with a product driven mindse
 
 #### Let's Connect! 🌐
 
-- [Portfolio Website](https://mereljac.dev.com)
+- [Portfolio Website](https://mereljac.dev)
 - [GitHub](https://github.com/MerelJac)
 - [LinkedIn](https://www.linkedin.com/in/merel-b-jacobs)
 
