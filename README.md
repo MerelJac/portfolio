@@ -42,6 +42,11 @@ Hi there! I'm Merel, a passionate software engineer with a product-driven mindse
   
   ![Screenshot](./assets/images/wgr.emails.html.png)
 
+## World of Westgate Email Marketing 
+- Created site with semantic HTML and JavaScript. 
+
+  ![Screenshot](./assets/images/2023-report.clevelandsightcenter.org.png)
+
 
 ### Let's Connect! 🌐
 
