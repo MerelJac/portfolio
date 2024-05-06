@@ -3,6 +3,18 @@
 ### About Me
 Hi there! I'm Merel, a passionate software engineer with a product-driven mindset. I build user-centric applications and am motivated by producing code I am proud of.
 
+# Table of Contents
+
+[Featured Works](#featured-works)
+   - [UN World Ocean's Day](#un-world-oceans-day)
+   - [Intel](#intel)
+   - [Ren Platform](#ren-platform)
+   - [World of Westgate Email Marketing](#world-of-westgate-email-marketing)
+   - [Cleveland Sight Center](#cleveland-sight-center)
+
+[Let's Connect!](#lets-connect)
+
+
 ### Featured Works 🌟
 
 ## UN World Ocean's Day
@@ -42,7 +54,7 @@ Hi there! I'm Merel, a passionate software engineer with a product-driven mindse
   
   ![Screenshot](./assets/images/wgr.emails.html.png)
 
-## World of Westgate Email Marketing 
+## Cleveland Sight Center 
 - Created site with semantic HTML and JavaScript. 
 
   ![Screenshot](./assets/images/2023-report.clevelandsightcenter.org.png)
