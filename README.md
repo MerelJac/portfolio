@@ -5,14 +5,14 @@ Hi there! I'm Merel, a passionate software engineer with a product-driven mindse
 
 # Table of Contents
 
-[Featured Works](#featured-works)
+[Featured Works](#featured-works-)
    - [UN World Ocean's Day](#un-world-oceans-day)
    - [Intel](#intel)
    - [Ren Platform](#ren-platform)
    - [World of Westgate Email Marketing](#world-of-westgate-email-marketing)
    - [Cleveland Sight Center](#cleveland-sight-center)
 
-[Let's Connect!](#lets-connect)
+[Let's Connect!](#lets-connect-)
 
 
 ### Featured Works 🌟
