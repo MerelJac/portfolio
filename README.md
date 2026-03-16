@@ -1,4 +1,4 @@
-`# Thanks for checking out my work! 👩‍💻
+`# Thanks for checking out my early front end work! 👩‍💻
 
 ### About Me
 Hi there! I'm Merel, a passionate software engineer with a product-driven mindset. I build user-centric applications and am motivated by producing code I am proud of.
